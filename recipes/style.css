@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: chocolate;
+}
+body{
+    background-color: beige;
+}
+.parent{
+    text-align: center;
+}
+p{
+    font-family: "Georgia", "Times New Roman", serif;
+}
+h2{
+    text-align:;
+    text-decoration: underline;
+    color: chocolate;
+}
+ul {
+    font-family: "Open Sans", sans-serif; 
+}   
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: orange;
+}

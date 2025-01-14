@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+  
+}
+body{
+    background-color:beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover {
+    color: red;
+  }
+  a:visited{
+    color:purple;
+  }
+  a:active {
+    color: orange;
+  }
