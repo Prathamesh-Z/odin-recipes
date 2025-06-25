@@ -1,21 +1,68 @@
 h1{
     text-align: center;
     text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a{
     text-decoration: none;
+  text-transform: capitalize;
+  font-family: sans-serif;
+
   
 }
 body{
-    background-color:beige;
+    background-color:navajowhite;
     font-family: 'Times New Roman', Times, serif;
 }
+a {
+  color: #333333; /* neutral base link color */
+  text-decoration: none;
+}
+
 a:hover {
-    color: red;
-  }
-  a:visited{
-    color:purple;
-  }
-  a:active {
-    color: orange;
-  }
+  color: #e67e22; /* warm orange – inviting on hover */
+}
+
+a:visited {
+  color: #6c5ce7; /* soft violet – elegant for visited */
+}
+
+a:active {
+  color: #d63031; /* rich red – clear feedback on click */
+}
+
+ li{
+  margin: 10px;
+  padding: 5px;
+ }
+ ul{
+  list-style: none; 
+  text-align: center;
+ }
+ .l1 a{
+   background-color: orange;
+   padding: 15px;
+   border-radius: 10px;
+   display: inline-block;
+  text-align: center;
+ }
+
+  .l2 a{
+   background-color: orange;
+   padding: 15px;
+   border-radius: 10px;
+   display: inline-block;
+  text-align: center;
+ }
+
+  .l3 a{
+   background-color: orange;
+   padding: 15px;
+   border-radius: 10px;
+   display: inline-block;
+  text-align: center;
+ }
+ 
+ .social-footer{
+  text-align: bottom;
+ }

@@ -1,27 +1,46 @@
-h1{
-    text-align: center;
-    text-decoration: underline;
-    color: chocolate;
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: chocolate;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
 }
+
 body{
-    background-color: beige;
+    background-color:tan;
+    
 }
 .parent{
     text-align: center;
 }
 p{
     font-family: "Georgia", "Times New Roman", serif;
+      background-color:wheat;
+      border-radius: 7px;
+      text-align: center;
 }
 h2{
-    text-align:;
+    text-align: center;
     text-decoration: underline;
     color: chocolate;
+    background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
 }
 ul {
     font-family: "Open Sans", sans-serif; 
+    background-color:wheat;
+    border-radius: 10px;
+    
 }   
 ol{
     font-family: Arial, Helvetica, sans-serif;
+      background-color: wheat;
+      border-radius: 10px;
+     
 }
 a{
     text-decoration: none;
@@ -35,3 +54,18 @@ a:visited{
 a:active{
     color: orange;
 }
+
+.title{
+    text-align: center;
+}
+.home{
+    text-align: center;
+     background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.home-wrapper{
+    text-align:right;
+}
+
